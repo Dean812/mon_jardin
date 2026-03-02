@@ -4,7 +4,7 @@ function AddBtn({ onClick }) {
     }
 
   return (
-    <button onClick={onClick}>Ajouter</button>
+    <button onClick={onClick}><i class="fa-solid fa-plus"></i> Ajouter</button>
   )
 }
 
